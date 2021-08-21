@@ -1,0 +1,85 @@
+.navbar-brand{
+    letter-spacing: 2px;
+}
+
+/*Anasayfa Başlangıç*/
+.carousel-item img{
+    height: 350px;
+}
+
+.card{
+    position: relative;
+    padding:12x;
+}
+
+.card img{
+    height: 50%;
+}
+
+.card .btn{
+    display: block;
+}
+.card .spor{
+    background-color: green;
+    position: absolute;
+    color: white;
+    padding: 3px;
+    font-weight: bolder;
+}
+
+.card .teknoloji{
+    background-color: red;
+    position: absolute;
+    color: white;
+    padding: 3px;
+    font-weight: bolder;
+}
+
+#two .card{
+    width: 25%;
+}
+
+.card:hover{
+    transform: scale(1.03);
+    transition: 0.5s;
+    z-index:1;
+    box-shadow: 15px 15px 8px grey;
+    border-radius: 6px;
+}
+
+.sporb{
+    letter-spacing: 2px;
+}
+.sporb:hover{
+    color: brown; 
+    transform: scale(1.03);
+    transition: 0.5s;
+    z-index:1;
+    padding: 3px;
+}
+
+.sd{
+    background-color: rgb(201, 35, 35);
+    color:white;
+    font-weight: bold;
+    position: absolute;
+    width: 230px;
+    text-align: center;
+    z-index: 1;
+    padding: 8px;
+}
+@media(max-width:768px){
+    #two .card{
+        width: 100%;
+    }
+
+    .card:hover{
+        transform: none;
+        transition: none;
+        z-index:1;
+        box-shadow: none;
+        border-radius: none;
+    }
+    
+}
+
